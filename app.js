@@ -18,10 +18,10 @@ switch (comando) {
         }
     break;
   case "crear":
-        porHacer.crearTarea(argv.desription)
+        porHacer.crearTarea(argv.descripcion)
     break;
   case "actualizar":
-        let actualizado=porHacer.actualizar(argv.desription,argv.completado)
+        let actualizado=porHacer.actualizar(argv.descripcion,argv.completado)
     break;
   case "borrar":
       let borrado=porHacer.borrar(argv.descripcion)
